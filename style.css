@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    background-image: url("background.avif");
+    background-size: cover;
+    color: white;
+    padding: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header nav {
+    padding-left: 2rem;
+    border-radius: 2rem;
+}
+
+#intro {
+    font-size: 1.5rem;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.about,
+.skills,
+.education {
+    font-size: 1rem;
+}
+
+h3 {
+    display: inline-block;
+    background-color: #ff4545;
+    opacity: 0.8;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-left: 40%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 2s ease-in-out 1;
+    cursor: pointer
+}
+
+h3:hover {
+    box-shadow: 0 0 15px white;
+    opacity: 1;
+}
+
+.btn:hover {
+    border-radius: 0.8rem;
+    box-shadow: 0 0 15px white;
+}
+
+/* .vapour {
+    display: none;
+} */
+
+@media(min-width:800px) {
+    .form-control {
+        display: inline;
+        color: white;
+        width: 30%;
+    }
+}
+.about a{
+    margin: 0.6rem;
+}
+
+.vapour {
+    display: none;
+}
+.show {
+    display: block;
+    animation: fadeIn 0.6s ease;
+}
