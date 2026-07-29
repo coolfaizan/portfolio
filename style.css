@@ -51,21 +51,25 @@ h3:hover {
 /* .vapour {
     display: none;
 } */
+.form-control {
+    color: white;
+}
 
 @media(min-width:800px) {
     .form-control {
         display: inline;
-        color: white;
         width: 30%;
     }
 }
-.about a{
+
+.about a {
     margin: 0.6rem;
 }
 
 .vapour {
     display: none;
 }
+
 .show {
     display: block;
     animation: fadeIn 0.6s ease;
