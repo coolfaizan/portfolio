@@ -37,3 +37,12 @@ btn.addEventListener("click",(e)=>{
     }
 });
 
+const navLinks = document.querySelectorAll(".nav-link");
+const navbarCollapse = document.querySelector(".navbar-collapse");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
+        bsCollapse.hide();
+    });
+}); 
