@@ -52,7 +52,8 @@ h3:hover {
     display: none;
 } */
 .form-control {
-    color: white;
+    background-color: rgb(242, 231, 231) !important;
+
 }
 
 @media(min-width:800px) {
